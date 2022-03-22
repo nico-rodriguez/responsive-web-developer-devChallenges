@@ -20,9 +20,15 @@
 
 ## Overview
 
-![screenshot](./screen.jpg)
-
 Visit [https://404-not-found-903ea1.netlify.app/](https://404-not-found-903ea1.netlify.app/).
+
+Desktop
+
+![screenshot](./screenshot-desktop.jpg)
+
+Mobile
+
+![screenshot](./screenshot-mobile.png)
 
 ## Features
 
