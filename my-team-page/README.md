@@ -6,8 +6,7 @@
 
 <div align="center">
   <h3>
-    <!-- TODO: replace {} -->
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://my-team-page-45cce8.netlify.app/">
       Solution
     </a>
     <span> | </span>
@@ -19,8 +18,7 @@
 
 ## Overview
 
-<!-- TODO: add deployed site url -->
-Visit []()
+Visit [https://my-team-page-45cce8.netlify.app/](https://my-team-page-45cce8.netlify.app/)
 
 Desktop
 
