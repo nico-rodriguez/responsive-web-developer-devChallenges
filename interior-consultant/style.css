@@ -99,6 +99,7 @@ main {
 
 .text-wrapper h2 {
   font-size: 48px;
+  line-height: 61px;
   margin-top: 5vh;
 }
 
@@ -177,6 +178,7 @@ main {
 
   .text-wrapper h2 {
     font-size: 36px;
+    line-height: 46px;
     margin-top: 3vh;
   }
 
