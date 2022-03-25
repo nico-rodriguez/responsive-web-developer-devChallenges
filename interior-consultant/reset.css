@@ -12,10 +12,6 @@
   background-color: black;
   color: white;
 }
-/* Add accessible line height */
-body {
-  line-height: 1.5;
-}
 /* Improve media defaults and make images responsive */
 img,
 picture,

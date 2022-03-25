@@ -1,10 +1,10 @@
 * {
+  /* TODO: delete next line */
   /* border-style: solid; */
 }
 
 /* Header */
 header {
-  width: 100vw;
   min-height: 10vh;
 
   padding: 0 5vw;
@@ -83,13 +83,157 @@ a#home {
 /* Main */
 main {
   height: 80vh;
+  padding: 0 5vw;
 
-  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+.text-wrapper {
+  margin-right: 5vw;
+
+  display: flex;
+  flex-direction: column;
+  line-height: 29px;
+}
+
+.text-wrapper h2 {
+  font-size: 48px;
+  margin-top: 5vh;
+}
+
+.text-wrapper p {
+  font-size: 24px;
+  margin-top: 5vh;
+}
+
+.text-wrapper a {
+  display: flex;
+  font-size: 18;
+  margin-top: 5vh;
+}
+
+.text-wrapper a svg {
+  background-color: black;
+  margin-left: 14px;
+}
+
+.image-wrapper {
+  margin-left: 5vw;
+  position: relative;
+}
+
+.card {
+  padding: 10px 14px;
+  position: absolute;
+  top: 80%;
+  left: 10%;
+  right: 5%;
+  z-index: 1;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+}
+
+.card-image {
+  padding: 13px;
+}
+
+.card-profile > *:first-child {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  margin-bottom: 8px;
+}
+
+.card-profile > *:nth-child(2) {
+  font-size: 12px;
+  line-height: 15px;
+  color: #828282;
+}
+
+.card-header img {
+  width: 72px;
+  height: 72px;
+  border-radius: 100%;
+}
+
+.card-content p {
+  padding: 13px;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+  main {
+    flex-direction: column;
+  }
+
+  .text-wrapper {
+    line-height: 17px;
+  }
+
+  .text-wrapper h2 {
+    font-size: 36px;
+    margin-top: 3vh;
+  }
+
+  .text-wrapper p {
+    font-size: 14px;
+    margin-top: 3vh;
+  }
+
+  .text-wrapper a {
+    display: flex;
+    font-size: 14;
+    margin-top: 3vh;
+    margin-bottom: 4vh;
+  }
+
+  .image-wrapper {
+    width: 95vw;
+    padding-right: 5vw;
+  }
+
+  .card {
+    padding: 7px 10px;
+  }
+
+  .card-profile > *:first-child {
+    margin-bottom: 6px;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .card-profile > *:nth-child(2) {
+    font-size: 10px;
+    line-height: 12px;
+  }
+
+  .card-content p {
+    font-size: 18px;
+    line-height: 23px;
+  }
 }
 
 /* Footer */
 footer {
   height: 10vh;
 
-  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+footer > * {
+  color: #a9a9a9;
+}
+
+footer a {
+  font-weight: 600;
+  text-decoration: underline;
+  color: #a9a9a9;
 }
