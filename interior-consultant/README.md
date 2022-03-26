@@ -20,15 +20,20 @@
 
 Visit [https://interior-consultant-774606.netlify.app/](https://interior-consultant-774606.netlify.app/)
 
-<!-- TODO: complete images -->
 Desktop
 
-![screenshot]()
+![screenshot](./images/screenshot-desktop.png)
 
 Mobile
 
-![screenshot]()
+![screenshot](./images/screenshot-mobile-1.png)
+
+![screenshot](./images/screenshot-mobile-2.png)
 
 ## Features
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/Jymh2b2FyebRTUljkNcb) was to build an application to complete the given user stories.
+
+The header is responsive to the width of the device, hiding the menu links with `display: none` on small screen devices. It displays the hamburger menu by re-arranging the header elements, through CSS and a little of JS, re-utilizing the DOM elements.
+
+The card profile is positioned as `absolute` in relation to the main image.

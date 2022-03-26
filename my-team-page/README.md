@@ -31,3 +31,5 @@ Mobile
 ## Features
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U) was to build an application to complete the given user stories.
+
+The images are positioned differently with respect to each other. This is done through media queries and child selectors. On large screen devices, there are three images per row (`flex-wrap: wrap` is used), so the child `3n-1` are aligned at `flex-end`. These correspond to the child positioned at the middle of each row. The rest of the child are aligned at `flex-start`. This creates the zig-zag effect. On small screen devices, there are two images per row, so the even child are aligned at `flex-end`, while the odd ones are aligned at `flex-start`.
