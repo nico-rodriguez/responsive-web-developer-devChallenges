@@ -6,7 +6,6 @@
 
 <div align="center">
   <h3>
-    <!-- TODO: replace {} -->
     <a href="https://interior-consultant-774606.netlify.app/">
       Solution
     </a>
@@ -19,9 +18,9 @@
 
 ## Overview
 
-<!-- TODO: complete url and images -->
 Visit [https://interior-consultant-774606.netlify.app/](https://interior-consultant-774606.netlify.app/)
 
+<!-- TODO: complete images -->
 Desktop
 
 ![screenshot]()
