@@ -6,8 +6,7 @@
 
 <div align="center">
   <h3>
-    <!-- TODO: fill {} -->
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://recipe-page-71b3b8.netlify.app/">
       Solution
     </a>
     <span> | </span>
@@ -17,10 +16,9 @@
   </h3>
 </div>
 
-<!-- TODO: insert site url -->
 ## Overview
 
-Visit ()[].
+Visit [https://recipe-page-71b3b8.netlify.app/](https://recipe-page-71b3b8.netlify.app/).
 
 Desktop
 
