@@ -1,0 +1,19 @@
+/* Recipe description */
+.recipe-description img {
+  background-color: white;
+}
+
+/* Recipe image */
+.recipe-image-container img {
+  background-color: white;
+}
+
+/* Card */
+.card-list > *:first-child .card-item-image span {
+  color: #f2994a;
+  background-color: white;
+}
+
+.card-item-image img {
+  background-color: white;
+}

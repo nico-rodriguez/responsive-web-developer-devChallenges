@@ -1,0 +1,157 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Global */
+h2 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333333;
+}
+
+h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: #333333;
+}
+
+@media only screen and (max-width: 600px) {
+  h2 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  h3 {
+    font-size: 16px;
+    line-height: 21px;
+  }
+}
+
+/* Title */
+.title h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 63.98px;
+}
+
+@media only screen and (max-width: 600px) {
+  .title h1 {
+    font-size: 24px;
+    line-height: 31.99px;
+  }
+}
+
+/* Recipe description */
+.recipe-description p em {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17.07px;
+  color: #4f4f4f;
+}
+
+@media only screen and (max-width: 600px) {
+  .recipe-description p em {
+    font-size: 12px;
+    line-height: 14.63px;
+  }
+}
+
+/* Card */
+.card-list {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card-item-text > *:first-child {
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12.19px;
+  color: #bdbdbd;
+}
+
+.card-list > *:first-child .card-item-text > *:nth-child(2) {
+  color: #f2994a;
+}
+
+.card-item-text > *:nth-child(2) {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17.07px;
+  color: #333333;
+}
+
+@media only screen and (max-width: 600px) {
+  .card-item > *:first-child {
+    font-size: 8px;
+    line-height: 9.75px;
+  }
+
+  .card-item > *:nth-child(2) {
+    font-size: 10px;
+    line-height: 12.19px;
+  }
+}
+
+/* Ingredients */
+.ingredients-list-item {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+  color: #333333;
+}
+
+@media only screen and (max-width: 600px) {
+  .ingredients-list-item {
+    font-size: 14px;
+    line-height: 25px;
+  }
+}
+
+/* Instructions */
+.instructions-list-item {
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.instructions-list-item-counter {
+  background-color: #f2994a;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .instructions-list-item {
+    font-size: 16px;
+    line-height: 150%;
+  }
+}
+
+/* Source */
+.source em {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 150%;
+  color: #bdbdbd;
+}
+
+@media only screen and (max-width: 600px) {
+  .source em {
+    font-size: 12px;
+  }
+}
+
+/* Footer */
+footer {
+  font-size: 14px;
+  line-height: 17px;
+  color: #828282;
+}
+
+footer a {
+  font-weight: 600;
+  color: #828282;
+}
