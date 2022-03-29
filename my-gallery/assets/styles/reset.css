@@ -1,0 +1,42 @@
+/* Start: CSS reset */
+/* https://www.joshwcomeau.com/css/custom-css-reset/ */
+/* Use a more-intuitive box-sizing model.*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/* Remove default margin */
+* {
+  margin: 0;
+}
+/* Improve media defaults and make images responsive */
+img,
+picture,
+video,
+canvas,
+svg {
+  background-color: grey;
+  object-fit: cover;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+/* Remove built-in form typograph styles */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+/* Avoid text overflow */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+/* End: CSS reset */
