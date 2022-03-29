@@ -6,7 +6,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://my-gallery-32b42e.netlify.app/">
       Solution
     </a>
     <span> | </span>
@@ -18,15 +18,15 @@
 
 ## Overview
 
-Visit []().
+Visit [https://my-gallery-32b42e.netlify.app/](https://my-gallery-32b42e.netlify.app/).
 
 Desktop
 
-![screenshot]()
+![screenshot](./screenshot-desktop.png)
 
 Mobile
 
-![screenshot]()
+![screenshot](./screenshot-mobile.png)
 
 ## Features
 
