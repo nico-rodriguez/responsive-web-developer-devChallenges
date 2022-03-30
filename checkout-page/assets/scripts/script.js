@@ -32,6 +32,10 @@ formEl.addEventListener('submit', (event) => {
     messageEl.style.display = 'none';
   }, 5000);
   formEl.reset();
+
+  selectEl.classList.remove('select-valid');
+  selectEl.classList.add('select-placeholder');
+  lastInvalid = true;
 });
 
 // Handler for items counter
