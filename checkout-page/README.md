@@ -1,4 +1,3 @@
-<!-- TODO: complete -->
 <h1 align="center">Checkout Page</h1>
 
 <div align="center">
