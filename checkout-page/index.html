@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1,
+  maximum-scale=5" />
+
+  <link rel="icon" href="devchallenges.png" />
+
+  <link rel="stylesheet" href="./assets/styles/reset.css">
+  <link rel="stylesheet" href="./assets/styles/style.css">
+
+  <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600;700&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <title>Checkout Page</title>
+</head>
+
+<body>
+  <header>
+    <h1>Checkout</h1>
+  </header>
+
+  <div class="form-success-message">
+    <div class="message">
+      <p>Form successfully sent!!</p>
+      <p>(or maybe not)</p>
+    </div>
+  </div>
+
+  <main>
+    <form>
+      <div class="contact-information">
+        <h2>Contact information</h2>
+        <div class="input-row">
+          <label for="email">E-mail</label>
+          <div class="input">
+            <span class="material-icons">
+              email
+            </span>
+            <input type="email" id="email" name="email" placeholder="Enter your email..." required minlength="3">
+          </div>
+        </div>
+        <div class="input-row">
+          <label for="phone">Phone</label>
+          <div class="input">
+            <span class="material-icons">phone</span>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone..." required>
+          </div>
+        </div>
+      </div>
+
+      <div class="shipping-address">
+        <h2>Shipping address</h2>
+        <div class="input-row">
+          <label for="fullname">Full name</label>
+          <div class="input">
+            <span class="material-icons">account_circle</span>
+            <input type="text" id="fullname" name="fullname" placeholder="Your name..." required minlength="2">
+          </div>
+        </div>
+        <div class="input-row">
+          <label for="address">Address</label>
+          <div class="input">
+            <span class="material-icons">home</span>
+            <input type="text" id="address" name="address" placeholder="Your address..." required>
+          </div>
+        </div>
+        <div class="input-row">
+          <label for="city">City</label>
+          <div class="input">
+            <span class="material-icons">location_city</span>
+            <input type="text" id="city" name="city" placeholder="Your city..." required>
+          </div>
+        </div>
+        <div class="input-row">
+          <label for="country">Country</label>
+          <div class="select">
+            <span class="material-icons">public</span>
+            <select id="country" name="country" required>
+              <option value="">Your country...</option>
+              <option value="argentina">Argentina</option>
+              <option value="brazil">Brazil</option>
+              <option value="uruguay">Uruguay</option>
+            </select>
+          </div>
+        </div>
+        <div class="input-row">
+          <label for="postal-code">Postal code</label>
+          <div class="input">
+            <span class="material-icons">markunread_mailbox</span>
+            <input type="text" id="postal-code" name="postal-code" placeholder="Your postal code..." required>
+          </div>
+        </div>
+        <div class="input-row">
+          <label class="save">
+            <input type="checkbox"> Save this information for next time
+          </label>
+        </div>
+      </div>
+
+      <button>Continue</button>
+    </form>
+
+    <div class="items-container">
+      <div class="item-row">
+        <div class="item-image-1"></div>
+        <div class="item-information">
+          <div class="item-header">
+            <h2>Vintage Backbag</h2>
+            <div class="item-price">
+              <span data-price="54.99">$54.99</span><span>$94.99</span>
+            </div>
+          </div>
+          <div class="item-counter">
+            <button>-</button>
+            <span class="item-counter-value">1</span>
+            <button>+</button>
+          </div>
+        </div>
+      </div>
+      <div class="item-row">
+        <div class="item-image-2"></div>
+        <div class="item-information">
+          <div class="item-header">
+            <h2>Levi Shoes</h2>
+            <div class="item-price">
+              <span data-price="74.99">$74.99</span><span>$124.99</span>
+            </div>
+          </div>
+          <div class="item-counter">
+            <button>-</button>
+            <span class="item-counter-value">1</span>
+            <button>+</button>
+          </div>
+        </div>
+      </div>
+      <div class="amounts">
+        <div class="amount-row">
+          <div class="amount-name">Shipping</div>
+          <span class="amount-price">$0</span>
+        </div>
+        <div class="amount-row">
+          <div class="amount-name">Total</div>
+          <span class="amount-price">$0</span>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer><span>created by <a href="https://github.com/nico-rodriguez">nico-rodriguez</a> - devChallenges.io</span>
+  </footer>
+</body>
+<script src="./assets/scripts/script.js"></script>
+
+
+</html>
