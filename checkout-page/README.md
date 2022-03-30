@@ -23,14 +23,14 @@ Visit [https://checkout-page-864c4b.netlify.app/](https://checkout-page-864c4b.n
 
 Desktop
 
-![screenshot]()
+![screenshot](./screenshot-desktop.png)
 
 Mobile
 
-![screenshot]()
+![screenshot](./screenshot-mobile.png)
 
 ## Features
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/0J1NxxGhOUYVqihwegfO) was to build an application to complete the given user stories.
 
-It uses `rem` units for fonts and padding, in order to adjust for different users preferences. Some JavaScript is used for coloring the first `select` `option` differently, for computing the prices and for displaying a notification of a successful form submission.
+It uses `rem` units for fonts and padding, in order to adjust for different users preferences. Some JavaScript is used for coloring the first `select` `option` differently, for computing the prices and for displaying a notification of a successful form submission. It also features some basic form validation.
