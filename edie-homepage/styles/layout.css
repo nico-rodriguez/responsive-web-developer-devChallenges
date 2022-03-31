@@ -22,9 +22,12 @@
 
 /* Header */
 header {
-  min-height: 10vh;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  max-height: 15vh;
   max-width: 100vw;
-  padding: 0 5vw;
+  padding: 5vh 5vw;
   display: flex;
   flex-direction: row-reverse;
   justify-content: space-between;
@@ -75,8 +78,7 @@ header svg {
 
 @media only screen and (max-width: 600px) {
   header {
-    height: 5vh;
-    margin-bottom: 3vh;
+    max-height: 7vh;
   }
 
   header nav {
@@ -128,22 +130,50 @@ header svg {
 
 /* Services */
 #services {
+  padding-top: 15vh;
   min-height: 100vh;
+}
+
+@media only screen and (max-width: 600px) {
+  #services {
+    padding-top: 12vh;  /* Header */
+  }
 }
 
 /* Our works */
 #our-works {
+  padding-top: 15vh;
   min-height: 100vh;
+}
+
+@media only screen and (max-width: 600px) {
+  #our-works {
+    padding-top: 12vh;  /* Header */
+  }
 }
 
 /* Our team */
 #our-team {
+  padding-top: 15vh;
   min-height: 100vh;
+}
+
+@media only screen and (max-width: 600px) {
+  #our-team {
+    padding-top: 12vh;  /* Header */
+  }
 }
 
 /* Clients */
 #clients {
+  padding-top: 15vh;
   min-height: 100vh;
+}
+
+@media only screen and (max-width: 600px) {
+  #clients {
+    padding-top: 12vh;  /* Header */
+  }
 }
 
 /* Contact (Footer) */
