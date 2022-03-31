@@ -74,6 +74,11 @@ header svg {
 }
 
 @media only screen and (max-width: 600px) {
+  header {
+    height: 5vh;
+    margin-bottom: 3vh;
+  }
+
   header nav {
     display: none;
 
