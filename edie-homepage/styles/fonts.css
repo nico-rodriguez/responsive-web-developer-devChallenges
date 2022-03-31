@@ -46,6 +46,28 @@
   color: var(--grey-6);
 }
 
+@media only screen and (max-width: 600px) {
+  .contact label {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  
+  .contact input::placeholder {
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+  }
+  
+  .contact input {
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+  }
+  
+  .contact button {
+    font-size: 1.4rem;
+    line-height: 2.1rem;
+  }
+}
+
 /* Header */
 header h1 {
   font-weight: 800;
@@ -60,6 +82,8 @@ nav a {
   line-height: 3.6rem;
   color: var(--grey-1);
 }
+
+/* Main */
 
 /* Home */
 #home p:first-child {
@@ -80,4 +104,21 @@ nav a {
   font-size: 1.8rem;
   line-height: 2.7rem;
   color: var(--grey-2);
+}
+
+@media only screen and (max-width: 600px) {
+  #home p:first-child {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+  }
+  
+  #home h2 {
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+  }
+  
+  #home p {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+  }
 }

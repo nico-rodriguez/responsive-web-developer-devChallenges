@@ -1,3 +1,25 @@
+/* Global */
+
+/* Contact Form (Global) */
+.contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact label {
+  padding-bottom: 1rem;
+}
+
+.contact input {
+  border-style: none;
+  padding: 1rem 2rem;
+}
+
+.contact button {
+  border-style: none;
+  padding: 1rem 3rem;
+}
+
 /* Header */
 header {
   min-height: 10vh;
@@ -77,6 +99,11 @@ header svg {
   flex-direction: column;
 }
 
+#home > *:not(.hero-image) {
+  margin: 1vh 10vw;
+  max-width: 40vw;
+}
+
 .hero-image {
   width: 90vw;
   margin: 0 5vw;
@@ -85,6 +112,14 @@ header svg {
   background-image: url('../images/heroImage.jpg');
   background-size: cover;
 }
+
+@media only screen and (max-width: 600px) {
+  #home>*:not(.hero-image) {
+    margin: 1vh 10vw;
+    max-width: 85vw;
+  }
+}
+
 
 /* Services */
 #services {
