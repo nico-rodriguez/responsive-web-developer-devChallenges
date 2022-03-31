@@ -24,10 +24,9 @@ video,
 canvas,
 svg {
   background-color: grey;
-  object-fit: cover;
-  display: block;
-  max-width: 100%;
+  width: 100%;
   height: auto;
+  display: block;
 }
 /* Remove built-in form typograph styles */
 input,

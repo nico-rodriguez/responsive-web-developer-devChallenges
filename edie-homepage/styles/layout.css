@@ -114,10 +114,10 @@ header svg {
 .hero-image {
   width: 90vw;
   margin: 0 5vw;
-  height: 40vh;
+}
+
+.hero-image img {
   border-radius: 1.2rem;
-  background-image: url('../images/heroImage.jpg');
-  background-size: cover;
 }
 
 @media only screen and (max-width: 600px) {
