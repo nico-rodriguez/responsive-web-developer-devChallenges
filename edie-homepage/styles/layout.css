@@ -101,7 +101,6 @@ header svg {
 
 /* Home */
 #home {
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
@@ -121,22 +120,71 @@ header svg {
 }
 
 @media only screen and (max-width: 600px) {
-  #home>*:not(.hero-image) {
+  #home > *:not(.hero-image) {
     margin: 1vh 10vw;
     max-width: 85vw;
   }
 }
 
-
 /* Services */
 #services {
   padding-top: 15vh;
-  min-height: 100vh;
+  width: 90vw;
+  margin-left: 5vw;
+}
+
+#services h2 {
+  max-width: 60vw;
+  margin-bottom: 9vh;
+}
+
+#services .cards-container {
+  max-width: 81vw;
+  margin-left: 4.5vw;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#services .card {
+  padding: 3rem 2rem;
+  max-width: 30%;
+  border-radius: 1.2rem;
+}
+
+#services .card:hover {
+  box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+  transform: scale(1.05);
+  transition: all 1s ease-in-out;
+}
+
+#services .card > * {
+  padding: 1rem;
+}
+
+#services .material-icons {
+  padding: 1rem;
+  border-radius: 1.2rem;
+}
+
+#services .button-wrapper button {
+  padding: 1rem;
+  border-radius: 1.2rem;
+  border-style: none;
 }
 
 @media only screen and (max-width: 600px) {
   #services {
-    padding-top: 12vh;  /* Header */
+    padding-top: 12vh; /* Header */
+  }
+
+  #services h2 {
+    max-width: 100%;
+  }
+
+  #services .card {
+    max-width: 100%;
+    margin-bottom: 4rem;
   }
 }
 
@@ -148,7 +196,7 @@ header svg {
 
 @media only screen and (max-width: 600px) {
   #our-works {
-    padding-top: 12vh;  /* Header */
+    padding-top: 12vh; /* Header */
   }
 }
 
@@ -160,7 +208,7 @@ header svg {
 
 @media only screen and (max-width: 600px) {
   #our-team {
-    padding-top: 12vh;  /* Header */
+    padding-top: 12vh; /* Header */
   }
 }
 
@@ -172,7 +220,7 @@ header svg {
 
 @media only screen and (max-width: 600px) {
   #clients {
-    padding-top: 12vh;  /* Header */
+    padding-top: 12vh; /* Header */
   }
 }
 
