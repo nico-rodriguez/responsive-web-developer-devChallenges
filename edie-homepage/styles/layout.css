@@ -177,12 +177,12 @@ header svg {
 }
 
 /* Contact (Footer) */
-#contact {
+#footer {
   min-height: 40vh;
 }
 
 @media only screen and (max-width: 600px) {
-  #contact {
+  #footer {
     min-height: 100vh;
   }
 }
