@@ -1,5 +1,7 @@
 :root {
   --blue: #2d9cdb;
+  --green: #27ae60;
+  --red: #eb5757;
   --grey-1: #333333;
   --grey-2: #4f4f4f;
   --grey-3: #828282;
@@ -51,17 +53,17 @@
     font-size: 1rem;
     line-height: 1.5rem;
   }
-  
+
   .contact input::placeholder {
     font-size: 1.4rem;
     line-height: 2.1rem;
   }
-  
+
   .contact input {
     font-size: 1.4rem;
     line-height: 2.1rem;
   }
-  
+
   .contact button {
     font-size: 1.4rem;
     line-height: 2.1rem;
@@ -111,14 +113,80 @@ nav a {
     font-size: 1.2rem;
     line-height: 1.8rem;
   }
-  
+
   #home h2 {
     font-size: 2.4rem;
     line-height: 3.6rem;
   }
-  
+
   #home p {
     font-size: 1.2rem;
     line-height: 1.8rem;
+  }
+}
+
+/* Services */
+#services .card-icon span {
+  color: white;
+}
+
+#services .edit-icon {
+  background-color: var(--blue);
+}
+
+#services .code-icon {
+  background-color: var(--green);
+}
+
+#services .storage-icon {
+  background-color: var(--red);
+}
+
+#services h2 {
+  font-weight: 500;
+  font-size: 3.6rem;
+  line-height: 5.4rem;
+  color: var(--grey-1);
+}
+
+#services h3 {
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+  color: var(--grey-1);
+}
+
+#services p {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: var(--grey-2);
+}
+
+#services button {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  color: var(--grey-3);
+}
+
+@media only screen and (max-width: 600px) {
+  #services h2 {
+    font-size: 3.6rem;
+    line-height: 5.4rem;
+  }
+
+  #services h3 {
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+  }
+
+  #services p {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+
+  #services button {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
   }
 }
