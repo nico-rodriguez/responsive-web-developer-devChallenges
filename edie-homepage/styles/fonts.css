@@ -1,11 +1,52 @@
 :root {
+  --blue: #2d9cdb;
   --grey-1: #333333;
+  --grey-2: #4f4f4f;
+  --grey-3: #828282;
+  --grey-4: #bdbdbd;
+  --grey-6: #f2f2f2;
 }
 
 * {
   font-family: 'Heebo', sans-serif;
 }
 
+/* Global */
+/* Contact Form (Global) */
+.contact label {
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  color: var(--grey-3);
+}
+
+.contact input::placeholder {
+  opacity: 1; /* Firefox */
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  color: var(--grey-4);
+}
+
+.contact input {
+  background-color: var(--grey-6);
+  border-radius: 1.2rem;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  color: var(--grey-1);
+}
+
+.contact button {
+  background: var(--blue);
+  border-radius: 1.2rem;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  color: var(--grey-6);
+}
+
+/* Header */
 header h1 {
   font-weight: 800;
   font-size: 3.6rem;
@@ -18,4 +59,25 @@ nav a {
   font-size: 2.4rem;
   line-height: 3.6rem;
   color: var(--grey-1);
+}
+
+/* Home */
+#home p:first-child {
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  color: var(--blue);
+}
+
+#home h2 {
+  font-weight: 500;
+  font-size: 4.8rem;
+  line-height: 7.2rem;
+  color: var(--grey-1);
+}
+
+#home p {
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  color: var(--grey-2);
 }

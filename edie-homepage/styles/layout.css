@@ -73,6 +73,17 @@ header svg {
 /* Home */
 #home {
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-image {
+  width: 90vw;
+  margin: 0 5vw;
+  height: 40vh;
+  border-radius: 1.2rem;
+  background-image: url('../images/heroImage.jpg');
+  background-size: cover;
 }
 
 /* Services */
