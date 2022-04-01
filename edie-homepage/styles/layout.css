@@ -41,10 +41,13 @@ nav {
 
 nav a {
   text-decoration: none;
-  margin: 0 4vw;
   line-height: 2.2rem;
   font-size: 1.8rem;
   font-weight: 500;
+}
+
+nav a:not(:first-child) {
+  margin-left: 2.5rem;
 }
 
 header button {
