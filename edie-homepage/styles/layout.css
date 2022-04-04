@@ -230,6 +230,12 @@ header svg {
 #our-works a {
   align-self: flex-end;
   margin-right: 5vw;
+  display: flex;
+  align-items: center;
+}
+
+#our-works span.material-icons {
+  margin-left: 1rem;
 }
 
 @media only screen and (max-width: 600px) {
