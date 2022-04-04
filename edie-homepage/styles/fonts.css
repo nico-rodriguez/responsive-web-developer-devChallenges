@@ -14,6 +14,31 @@
 }
 
 /* Global */
+/* Headers */
+h2 {
+  font-weight: 500;
+  font-size: 4.8rem;
+  line-height: 7.2rem;
+  color: var(--grey-1);
+}
+
+@media only screen and (max-width: 600px) {
+  #home p:first-child {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+  }
+
+  h2 {
+    font-size: 2.4rem;
+    line-height: 3.6rem;
+  }
+
+  #home p {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+  }
+}
+
 /* Contact Form (Global) */
 .contact label {
   font-weight: 500;
@@ -95,13 +120,6 @@ nav a {
   color: var(--blue);
 }
 
-#home h2 {
-  font-weight: 500;
-  font-size: 4.8rem;
-  line-height: 7.2rem;
-  color: var(--grey-1);
-}
-
 #home p {
   font-size: 1.8rem;
   line-height: 2.7rem;
@@ -112,11 +130,6 @@ nav a {
   #home p:first-child {
     font-size: 1.2rem;
     line-height: 1.8rem;
-  }
-
-  #home h2 {
-    font-size: 2.4rem;
-    line-height: 3.6rem;
   }
 
   #home p {
@@ -142,13 +155,6 @@ nav a {
   background-color: var(--red);
 }
 
-#services h2 {
-  font-weight: 500;
-  font-size: 3.6rem;
-  line-height: 5.4rem;
-  color: var(--grey-1);
-}
-
 #services h3 {
   font-weight: 700;
   font-size: 2.4rem;
@@ -170,11 +176,6 @@ nav a {
 }
 
 @media only screen and (max-width: 600px) {
-  #services h2 {
-    font-size: 2.4rem;
-    line-height: 3.6rem;
-  }
-
   #services h3 {
     font-size: 2.4rem;
     line-height: 3.6rem;
@@ -192,13 +193,6 @@ nav a {
 }
 
 /* Our Works */
-#our-works h2 {
-  font-weight: 500;
-  font-size: 3.6rem;
-  line-height: 5.4rem;
-  color: var(--grey-1);
-}
-
 #our-works p {
   font-weight: 300;
   font-size: 1.4rem;
@@ -222,11 +216,6 @@ nav a {
 }
 
 @media only screen and (max-width: 600px) {
-  #our-works h2 {
-    font-size: 2.4rem;
-    line-height: 3.6rem;
-  }
-
   #our-works p {
     font-size: 1.2rem;
     line-height: 1.8rem;
@@ -256,20 +245,6 @@ nav a {
   #our-team a {
     font-size: 1.8rem;
     line-height: 2.7rem;
-  }
-}
-
-#our-team h2 {
-  font-weight: 500;
-  font-size: 3.6rem;
-  line-height: 5.4rem;
-  color: var(--grey-1);
-}
-
-@media only screen and (max-width: 600px) {
-  #our-team h2 {
-    font-size: 2.4rem;
-    line-height: 3.6rem;
   }
 }
 
