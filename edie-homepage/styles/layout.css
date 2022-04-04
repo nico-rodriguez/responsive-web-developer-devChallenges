@@ -98,6 +98,10 @@ header svg {
   header button {
     display: block;
   }
+
+  nav a:not(:first-child) {
+    margin-left: 0;
+  }
 }
 
 /* Main */
