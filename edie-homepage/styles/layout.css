@@ -258,11 +258,71 @@ header svg {
 #our-team {
   padding-top: 15vh;
   min-height: 100vh;
+  margin-left: 5vw;
+  width: 90vw;
+  display: flex;
+  align-items: center;
 }
 
 @media only screen and (max-width: 600px) {
   #our-team {
     padding-top: 12vh; /* Header */
+  }
+}
+
+#our-team .text-container {
+  max-width: 30%;
+}
+
+#our-team .text-container > * {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#our-team .image img {
+  border-radius: 1.2rem;
+}
+
+#our-team .images-container {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-left: 10%;
+}
+
+#our-team .images-container > *:first-child {
+  width: 55%;
+  margin-right: 2rem;
+}
+
+#our-team .image-pair {
+  width: 45%;
+}
+
+#our-team .image-pair > *:first-child {
+  width: 90%;
+  margin-bottom: 2rem;
+}
+
+#our-team .image-pair > *:nth-child(2) {
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  #our-team {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #our-team .text-container {
+    max-width: 80%;
+  }
+
+  #our-team .images-container {
+    margin-top: 4rem;
+    margin-left: 0;
+    width: 100%;
   }
 }
 
