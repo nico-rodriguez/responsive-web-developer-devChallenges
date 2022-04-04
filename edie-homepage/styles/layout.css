@@ -34,19 +34,19 @@ header {
   align-items: center;
 }
 
-nav {
+header nav {
   display: flex;
   align-items: center;
 }
 
-nav a {
+header nav a {
   text-decoration: none;
   line-height: 2.2rem;
   font-size: 1.8rem;
   font-weight: 500;
 }
 
-nav a:not(:first-child) {
+header nav a:not(:first-child) {
   margin-left: 2.5rem;
 }
 
@@ -91,7 +91,7 @@ header svg {
     align-items: center;
   }
 
-  nav a {
+  header nav a {
     margin: 2rem 0;
   }
 
@@ -99,7 +99,7 @@ header svg {
     display: block;
   }
 
-  nav a:not(:first-child) {
+  header nav a:not(:first-child) {
     margin-left: 0;
   }
 }
