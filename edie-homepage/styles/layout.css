@@ -183,6 +183,7 @@ header svg {
 
   #services h2 {
     max-width: 100%;
+    margin-bottom: 5vh;
   }
 
   #services .card {
