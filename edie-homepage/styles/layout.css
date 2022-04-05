@@ -390,13 +390,70 @@ header svg {
   }
 }
 
+* {
+  /* border-style: solid; */
+}
+
 /* Contact (Footer) */
-#footer {
-  min-height: 40vh;
+footer {
+  display: flex;
+  flex-direction: column;
+  max-width: 100vw;
+  padding: 4rem 5rem 0;
+}
+
+footer .contact-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+footer nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+footer nav a:not(:first-child) {
+  margin-top: 1.5rem;
+}
+
+footer .social-links .social-buttons {
+  display: flex;
+}
+
+footer .social-buttons img {
+  width: 24px;
+  height: 24px;
+  background-color: #100e1d;
+  border-radius: 0.5rem;
+}
+
+footer .social-buttons img:not(:first-child) {
+  margin-left: 1rem;
+}
+
+footer .contact label {
+  padding-bottom: 0.5rem;
+}
+
+footer .attribution {
+  margin-top: 8rem;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1rem;
 }
 
 @media only screen and (max-width: 600px) {
-  #footer {
-    min-height: 100vh;
+  footer .contact-content {
+    flex-direction: column;
+  }
+
+  footer .contact-content nav {
+    margin-bottom: 4rem;
+  }
+
+  footer .contact-content .social-links {
+    margin-bottom: 4rem;
   }
 }
