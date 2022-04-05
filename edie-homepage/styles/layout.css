@@ -390,10 +390,6 @@ header svg {
   }
 }
 
-* {
-  /* border-style: solid; */
-}
-
 /* Contact (Footer) */
 footer {
   display: flex;
