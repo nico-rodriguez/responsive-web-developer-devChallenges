@@ -135,7 +135,7 @@ header svg {
 
 /* Services */
 #services {
-  padding-top: 15vh;
+  padding-top: calc(15vh + 5rem);
   width: 90vw;
   margin-left: 5vw;
 }
@@ -199,8 +199,7 @@ header svg {
 
 /* Our works */
 #our-works {
-  padding-top: 15vh;
-  min-height: 100vh;
+  padding-top: calc(15vh + 5rem);
   width: 90vw;
   margin-left: 5vw;
   display: flex;
@@ -273,8 +272,7 @@ header svg {
 
 /* Our team */
 #our-team {
-  padding-top: 15vh;
-  min-height: 100vh;
+  padding-top: calc(15vh + 5rem);
   margin-left: 5vw;
   width: 90vw;
   display: flex;
@@ -346,8 +344,8 @@ header svg {
 
 /* Clients */
 #clients {
-  padding-top: 15vh;
-  min-height: 100vh;
+  padding-top: calc(15vh + 5rem);
+  padding-bottom: 10rem;
   width: 90vw;
   margin-left: 5vw;
 }
