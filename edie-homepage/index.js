@@ -33,3 +33,20 @@ button.addEventListener('click', handleHamburgerClick);
 navbar.querySelectorAll('a').forEach((navLink) => {
   navLink.addEventListener('click', handleNavLinkClick);
 });
+
+document
+  .querySelector('#services')
+  .querySelectorAll('.card')
+  .forEach((cardEl) => {
+    console.log(cardEl);
+    cardEl.addEventListener('mouseenter', (event) => {
+      event.target.querySelector('button').classList.add('active-button');
+      // Selector in fonts.css has higher specificity than class, so color must
+      // be set manually.
+      event.target.querySelector('button').style.color = '#ffffff';
+    });
+    cardEl.addEventListener('mouseleave', (event) => {
+      event.target.querySelector('button').classList.remove('active-button');
+      event.target.querySelector('button').style.color = '#828282';
+    });
+  });

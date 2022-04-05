@@ -165,6 +165,10 @@ header svg {
   transition: all 1s ease-in-out;
 }
 
+.active-button {
+  background-color: #2d9cdb;
+}
+
 #services .card > * {
   padding: 1rem;
 }
