@@ -44,3 +44,34 @@ div {
   line-height: 2.2rem;
   color: var(--grey-2);
 }
+
+/* Central section */
+.central-section {
+  background-color: whitesmoke;
+}
+
+.central-section .tech-stack h2 {
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  text-transform: uppercase;
+  color: var(--grey-2);
+}
+
+.central-section .tech-stack span {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  color: var(--grey-2);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.central-section .tech-stack .tech .tech-bar {
+  background-color: #c4c4c4;
+}
+
+.central-section .tech-stack .tech .tech-bar .tech-progress {
+  background-color: #2f80ed;
+}

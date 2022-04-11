@@ -55,3 +55,33 @@ body {
 .text-content .personal-description p {
   margin: 1rem 0;
 }
+
+/* Central section */
+.central-section {
+  margin-top: 2rem;
+}
+
+.central-section .tech-stack {
+  border-radius: 1.2rem;
+  padding: 2rem 2rem 1rem 2rem;
+}
+
+.central-section .tech-stack .tech {
+  margin: 1rem 0;
+  display: flex;
+}
+
+.central-section .tech-stack .tech span {
+  flex-grow: 1;
+  flex-basis: 20%;
+}
+
+.central-section .tech-stack .tech .tech-bar {
+  flex-grow: 4;
+  border-radius: 1.2rem;
+}
+
+.central-section .tech-stack .tech .tech-bar .tech-progress {
+  height: 100%;
+  border-radius: 1.2rem;
+}
