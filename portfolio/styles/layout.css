@@ -86,3 +86,12 @@ body {
   height: 100%;
   border-radius: 1.2rem;
 }
+
+/* Hobbies */
+.central-section .hobbies {
+  border-radius: 12px;
+}
+
+.central-section .hobbies img {
+  border-radius: 12px;
+}
