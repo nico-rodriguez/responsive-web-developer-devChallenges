@@ -2,10 +2,14 @@ body {
   padding: 5vh 10vw;
 }
 
+div,
+img {
+  border-radius: 12px;
+}
+
 /* Personal information */
 .personal-card {
   padding: 2rem;
-  border-radius: 1.2rem;
   display: flex;
   align-items: center;
 }
@@ -13,10 +17,6 @@ body {
 .personal-card .personal-photo {
   max-width: 20vmin;
   flex-grow: 1;
-}
-
-.personal-card .personal-photo img {
-  border-radius: 1.2rem;
 }
 
 @media only screen and (max-width: 600px) {
@@ -62,10 +62,6 @@ body {
 }
 
 /* Tech Stack */
-.central-section,
-.central-section div {
-  border-radius: 1.2rem;
-}
 .central-section .tech-stack {
   padding: 2rem 2rem 1rem 2rem;
 }
@@ -82,29 +78,23 @@ body {
 
 .central-section .tech-stack .tech .tech-bar {
   flex-grow: 4;
-  border-radius: 1.2rem;
 }
 
 .central-section .tech-stack .tech .tech-bar .tech-progress {
   height: 100%;
-  border-radius: 1.2rem;
 }
 
 /* Hobbies */
 .central-section .hobbies {
-  border-radius: 12px;
 }
 
 .central-section .hobbies img {
-  border-radius: 12px;
 }
 
 /* Article */
 .article,
 .article div {
-  border-radius: 12px;
 }
 
 .article img {
-  border-radius: 12px;
 }
