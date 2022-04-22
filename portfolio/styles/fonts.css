@@ -128,3 +128,33 @@ div {
   color: #2f80ed;
   text-decoration: none;
 }
+
+/* Experiences */
+.experiences h2 {
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+
+  color: #4f4f4f;
+}
+
+.experiences span {
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: #828282;
+}
+
+.experiences h3 {
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  color: #333333;
+}
+
+.experiences p {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  color: #828282;
+}
