@@ -262,19 +262,32 @@ img {
 @media only screen and (max-width: 600px) {
   .projects-navigator {
     justify-content: center;
+    gap: 15px;
   }
 }
 
-.projects-navigator span {
+.projects-navigator span,
+.projects-navigator span.material-icons {
   border-radius: 4px;
   padding: 10px;
 }
 
-.projects-navigator span[data-navigator-index] {
+.projects-navigator span.material-icons {
+  padding-left: 12px;
+  padding-right: 8px;
+}
+
+.projects-navigator span[data-navigator-index],
+.projects-navigator span.material-icons {
   border: 1px solid var(--grey-2);
 }
 
-.projects-navigator span:not([data-navigator-index]) {
+.projects-navigator span[data-navigator-index].active {
+  color: white;
+  border-color: var(--blue);
+}
+
+.projects-navigator > *:not([data-navigator-index]) {
   padding-left: 0;
   padding-right: 0;
 }
