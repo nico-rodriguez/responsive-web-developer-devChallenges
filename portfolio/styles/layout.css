@@ -95,3 +95,13 @@ body {
 .central-section .hobbies img {
   border-radius: 12px;
 }
+
+/* Article */
+.article,
+.article div {
+  border-radius: 12px;
+}
+
+.article img {
+  border-radius: 12px;
+}
