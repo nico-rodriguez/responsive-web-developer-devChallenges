@@ -98,3 +98,12 @@ img {
 
 .article img {
 }
+
+/* Experiences */
+.experiences .card {
+  display: flex;
+}
+
+.experiences img {
+  width: min(10vmin, 20%);
+}
