@@ -158,3 +158,23 @@ div {
   line-height: 2rem;
   color: #828282;
 }
+
+/* Projects */
+.projects-section .projects-filters h2 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #4f4f4f;
+}
+
+.filter {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #4f4f4f;
+}
+
+.active-filter {
+  color: #ffffff;
+}
