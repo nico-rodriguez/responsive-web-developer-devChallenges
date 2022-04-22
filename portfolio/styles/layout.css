@@ -62,8 +62,11 @@ body {
 }
 
 /* Tech Stack */
-.central-section .tech-stack {
+.central-section,
+.central-section div {
   border-radius: 1.2rem;
+}
+.central-section .tech-stack {
   padding: 2rem 2rem 1rem 2rem;
 }
 
