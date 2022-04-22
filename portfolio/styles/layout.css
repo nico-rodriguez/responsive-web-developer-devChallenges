@@ -167,8 +167,20 @@ img {
 }
 
 /* Projects */
+.projects-section {
+  margin-top: 20px;
+}
+
 .projects-section .projects-filters {
   padding: 40px;
+}
+
+.projects-section .projects-filters h2 {
+  margin-bottom: 20px;
+}
+
+.projects-section .projects-filters .filter {
+  padding: 10px 20px;
 }
 
 .projects-section .projects-filters .filters {
