@@ -1,4 +1,3 @@
-<!-- TODO: fill in urls and images -->
 <h1 align="center">Portfolio</h1>
 
 <div align="center">
@@ -23,11 +22,11 @@ Visit [<https://portfolio-e73685.netlify.app/>](https://portfolio-e73685.netlify
 
 Desktop
 
-![screenshot]()
+![screenshot](./screenshot-desktop.png)
 
 Mobile
 
-![screenshot]()
+![screenshot](./screenshot-mobile.png)
 
 ## Features
 
