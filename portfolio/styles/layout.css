@@ -2,6 +2,12 @@ body {
   padding: 5vh 10vw;
 }
 
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 5vh 5vw;
+  }
+}
+
 div,
 img {
   border-radius: 12px;
@@ -9,7 +15,7 @@ img {
 
 /* Personal information */
 .personal-card {
-  padding: 2rem;
+  padding: 35px;
   display: flex;
   align-items: center;
 }
@@ -19,17 +25,25 @@ img {
   flex-grow: 1;
 }
 
-@media only screen and (max-width: 600px) {
-  .personal-card .personal-photo {
-    display: none;
-  }
-}
-
 .text-content {
-  margin-left: 2rem;
+  margin-left: 20px;
   flex-grow: 4;
   display: flex;
   flex-direction: column;
+}
+
+@media only screen and (max-width: 425px) {
+  .personal-card {
+    padding: 20px;
+  }
+
+  .personal-card .personal-photo {
+    display: none;
+  }
+
+  .text-content {
+    margin-left: 0;
+  }
 }
 
 .text-content .personal-information {
@@ -59,13 +73,32 @@ img {
 /* Central section */
 .central-section {
   margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.central-section .central-section-column:first-child {
+  flex-basis: 300px;
+  flex-grow: 2;
+}
+
+.central-section .central-section-column:nth-child(2) {
+  flex-basis: 400px;
+  flex-grow: 3;
+}
+
+.central-section-column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.central-section-column > div {
+  padding: 35px;
 }
 
 /* Tech Stack */
-.central-section .tech-stack {
-  padding: 2rem 2rem 1rem 2rem;
-}
-
 .central-section .tech-stack .tech {
   margin: 1rem 0;
   display: flex;
@@ -85,25 +118,50 @@ img {
 }
 
 /* Hobbies */
-.central-section .hobbies {
+.central-section .hobbies .card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-.central-section .hobbies img {
+.central-section .hobbies .card:not(:last-child) {
+  margin: 30px 0;
 }
 
 /* Article */
-.article,
-.article div {
+.article {
+  flex-grow: 2;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.article img {
+.article .article-metadata {
+  display: flex;
+  gap: 30px;
 }
 
 /* Experiences */
+.experiences {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
 .experiences .card {
   display: flex;
+  gap: 30px;
 }
 
 .experiences img {
   width: min(10vmin, 20%);
+  max-height: 10vmin;
+}
+
+.experiences .card .card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }

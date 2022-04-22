@@ -46,7 +46,8 @@ div {
 }
 
 /* Central section */
-.central-section {
+.central-section,
+.central-section-column {
   background-color: whitesmoke;
 }
 
