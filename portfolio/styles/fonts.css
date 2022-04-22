@@ -1,11 +1,16 @@
 /* Colors */
 :root {
+  --blue: #2f80ed;
+  --grey-1: #333333;
   --grey-2: #4f4f4f;
   --grey-3: #828282;
+  --grey-4: #c4c4c4;
+  --grey-5: whitesmoke;
+  --grey-6: #e0e0e0;
 }
 
 body {
-  background-color: whitesmoke;
+  background-color: var(--grey-5);
 }
 
 div {
@@ -48,7 +53,7 @@ div {
 /* Central section */
 .central-section,
 .central-section-column {
-  background-color: whitesmoke;
+  background-color: var(--grey-5);
 }
 
 /* Tech stack */
@@ -71,11 +76,11 @@ div {
 }
 
 .central-section .tech-stack .tech .tech-bar {
-  background-color: #c4c4c4;
+  background-color: var(--grey-4);
 }
 
 .central-section .tech-stack .tech .tech-bar .tech-progress {
-  background-color: #2f80ed;
+  background-color: var(--blue);
 }
 
 /* Hobbies */
@@ -83,21 +88,21 @@ div {
   font-weight: 500;
   font-size: 2.4rem;
   line-height: 2.9rem;
-  color: #4f4f4f;
+  color: var(--grey-2);
 }
 
 .central-section .hobbies h3 {
   font-weight: 600;
   font-size: 1.8rem;
   line-height: 2.2rem;
-  color: #333333;
+  color: var(--grey-1);
 }
 
 .central-section .hobbies p {
   font-weight: 500;
   font-size: 1.6rem;
   line-height: 2rem;
-  color: #828282;
+  color: var(--grey-3);
 }
 
 /* Article */
@@ -105,28 +110,28 @@ div {
   font-weight: 500;
   font-size: 1.6rem;
   line-height: 2rem;
-  color: #e0e0e0;
+  color: var(--grey-6);
 }
 
 .article h2 {
   font-weight: 500;
   font-size: 2.4rem;
   line-height: 2.9rem;
-  color: #333333;
+  color: var(--grey-1);
 }
 
 .article p {
   font-weight: 500;
   font-size: 1.6rem;
   line-height: 2rem;
-  color: #828282;
+  color: var(--grey-3);
 }
 
 .article a {
   font-weight: 500;
   font-size: 1.6rem;
   line-height: 2rem;
-  color: #2f80ed;
+  color: var(--blue);
   text-decoration: none;
 }
 
@@ -135,28 +140,28 @@ div {
   font-weight: 500;
   font-size: 2.4rem;
   line-height: 2.9rem;
-  color: #4f4f4f;
+  color: var(--grey-2);
 }
 
 .experiences span {
   font-weight: 500;
   font-size: 1.4rem;
   line-height: 1.7rem;
-  color: #828282;
+  color: var(--grey-3);
 }
 
 .experiences h3 {
   font-weight: 600;
   font-size: 1.6rem;
   line-height: 2rem;
-  color: #333333;
+  color: var(--grey-1);
 }
 
 .experiences p {
   font-weight: 500;
   font-size: 1.6rem;
   line-height: 2rem;
-  color: #828282;
+  color: var(--grey-3);
 }
 
 /* Projects */
@@ -164,7 +169,7 @@ div {
   font-weight: 500;
   font-size: 18px;
   line-height: 22px;
-  color: #4f4f4f;
+  color: var(--grey-2);
 }
 
 .filter {
@@ -172,9 +177,9 @@ div {
   font-size: 14px;
   line-height: 17px;
   text-align: center;
-  color: #4f4f4f;
+  color: var(--grey-2);
 }
 
-.active-filter {
-  color: #ffffff;
+.active {
+  color: white;
 }

@@ -165,3 +165,22 @@ img {
   flex-direction: column;
   gap: 20px;
 }
+
+/* Projects */
+.projects-section .projects-filters {
+  padding: 40px;
+}
+
+.projects-section .projects-filters .filters {
+  display: flex;
+  gap: 20px;
+}
+
+.filter {
+  border: 1px solid var(--grey-2);
+}
+
+.active {
+  background: var(--blue);
+  border: 1px solid var(--blue);
+}
