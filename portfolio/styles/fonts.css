@@ -107,3 +107,33 @@ div {
   line-height: 2rem;
   color: #828282;
 }
+
+/* Article */
+.article h3 {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  color: #e0e0e0;
+}
+
+.article h2 {
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 2.9rem;
+  color: #333333;
+}
+
+.article p {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  color: #828282;
+}
+
+.article a {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  color: #2f80ed;
+  text-decoration: none;
+}
