@@ -1,5 +1,3 @@
-<!-- Please update value in the {}  -->
-
 <h1 align="center">404 Not Found</h1>
 
 <div align="center">
@@ -24,7 +22,7 @@ Visit [https://404-not-found-903ea1.netlify.app/](https://404-not-found-903ea1.n
 
 Desktop
 
-![screenshot](./screenshot-desktop.jpg)
+![screenshot](./screenshot-desktop.png)
 
 Mobile
 
@@ -34,4 +32,4 @@ Mobile
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY) was to build an application to complete the given user stories.
 
-The main content is displayed as `flex`, changing from `row` to `column` on small screen devices.
+The main content is displayed as `grid`, with `auto-fit` and `minmax`, which creates a responsive grid that wraps its contents on small screen devices.
