@@ -24,26 +24,14 @@ picture,
 video,
 canvas,
 svg {
-  background-color: grey;
   display: block;
   max-width: 100%;
   height: auto;
 }
-/* Remove built-in form typograph styles */
-input,
-button,
-textarea,
-select {
-  font: inherit;
-}
 /* Avoid text overflow */
 p,
 h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h2 {
   overflow-wrap: break-word;
 }
 /* End: CSS reset */
