@@ -2,7 +2,7 @@
 
 ## :star2: About the Project
 
-Solutions to the [Responsive Web Developer challenges](https://devchallenges.io/paths/responsive-web-developer) from [devChallenges](https://devchallenges.io/).
+Responsive web applications. Solutions to the [Responsive Web Developer challenges](https://devchallenges.io/paths/responsive-web-developer) from [devChallenges](https://devchallenges.io/).
 
 ### :gear: Tech Stack
 
