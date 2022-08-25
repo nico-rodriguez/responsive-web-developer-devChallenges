@@ -1,0 +1,24 @@
+[submodule "404-not-found"]
+	path = 404-not-found
+	url = git@github.com:nico-rodriguez/404-not-found.git
+[submodule "checkout-page"]
+	path = checkout-page
+	url = git@github.com:nico-rodriguez/checkout-page.git
+[submodule "edie-homepage"]
+	path = edie-homepage
+	url = git@github.com:nico-rodriguez/edie-homepage.git
+[submodule "interior-consultant"]
+	path = interior-consultant
+	url = git@github.com:nico-rodriguez/interior-consultant.git
+[submodule "my-gallery"]
+	path = my-gallery
+	url = git@github.com:nico-rodriguez/my-gallery.git
+[submodule "my-team-page"]
+	path = my-team-page
+	url = git@github.com:nico-rodriguez/my-team-page.git
+[submodule "portfolio"]
+	path = portfolio
+	url = git@github.com:nico-rodriguez/portfolio.git
+[submodule "recipe-page"]
+	path = recipe-page
+	url = git@github.com:nico-rodriguez/recipe-page.git

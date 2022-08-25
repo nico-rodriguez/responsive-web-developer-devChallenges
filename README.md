@@ -27,14 +27,14 @@ No frameworks like React or Angular, just vanilla JS.
 
 | Code         | Demo      | Description |
 |--------------|-----------|------------|
-| [404-not-found](./404-not-found/) | [https://404-not-found-903ea1.netlify.app/](https://404-not-found-903ea1.netlify.app/)      | Layout of a typical 404 not found page        |
-| [checkout-page](./checkout-page)      | [https://checkout-page-864c4b.netlify.app/](https://checkout-page-864c4b.netlify.app/)  | Checkout page with a form which dynamically computes the total price      |
-| [edie-homepage](./edie-homepage)      | [https://edie-homepage-7509e4.netlify.app/](https://edie-homepage-7509e4.netlify.app/)  | Page for a web services provider with a dynamic header navbar (on mobile, hamburger button which displays a full page modal navbar)      |
-| [interior-consultant](./interior-consultant)      | [https://interior-consultant-774606.netlify.app/](https://interior-consultant-774606.netlify.app/)  | Interior consultant home page with navigation styling in the navbar and a relatively positioned card on top of an image       |
-| [my-gallery](./my-gallery)      | [https://my-gallery-32b42e.netlify.app/](https://my-gallery-32b42e.netlify.app/)  | User's profile page with a responsive image gallery gird       |
-| [my-team-page](./my-team-page)      | [https://my-team-page-45cce8.netlify.app/](https://my-team-page-45cce8.netlify.app/)  | Display team member's pictures along with name and title in a zig-zag layout       |
-| [portfolio](./portfolio)      | [https://portfolio-e73685.netlify.app/](https://portfolio-e73685.netlify.app/)  | Sample developer portfolio page with a responsive grid layout      |
-| [recipe-page](./recipe-page)      | [https://recipe-page-71b3b8.netlify.app/](https://recipe-page-71b3b8.netlify.app/)  | Recipe page with a floating aside card that stacks up on small screens      |
+| [404-not-found](https://github.com/nico-rodriguez/404-not-found) | [https://404-not-found-903ea1.netlify.app/](https://404-not-found-903ea1.netlify.app/)      | Layout of a typical 404 not found page        |
+| [checkout-page](https://github.com/nico-rodriguez/checkout-page)      | [https://checkout-page-864c4b.netlify.app/](https://checkout-page-864c4b.netlify.app/)  | Checkout page with a form which dynamically computes the total price      |
+| [edie-homepage](https://github.com/nico-rodriguez/edie-homepage)      | [https://edie-homepage-7509e4.netlify.app/](https://edie-homepage-7509e4.netlify.app/)  | Page for a web services provider with a dynamic header navbar (on mobile, hamburger button which displays a full page modal navbar)      |
+| [interior-consultant](https://github.com/nico-rodriguez/interior-consultant)      | [https://interior-consultant-774606.netlify.app/](https://interior-consultant-774606.netlify.app/)  | Interior consultant home page with navigation styling in the navbar and a relatively positioned card on top of an image       |
+| [my-gallery](https://github.com/nico-rodriguez/my-gallery)      | [https://my-gallery-32b42e.netlify.app/](https://my-gallery-32b42e.netlify.app/)  | User's profile page with a responsive image gallery gird       |
+| [my-team-page](https://github.com/nico-rodriguez/my-team-page)      | [https://my-team-page-45cce8.netlify.app/](https://my-team-page-45cce8.netlify.app/)  | Display team member's pictures along with name and title in a zig-zag layout       |
+| [portfolio](https://github.com/nico-rodriguez/portfolio)      | [https://portfolio-e73685.netlify.app/](https://portfolio-e73685.netlify.app/)  | Sample developer portfolio page with a responsive grid layout      |
+| [recipe-page](https://github.com/nico-rodriguez/recipe-page)      | [https://recipe-page-71b3b8.netlify.app/](https://recipe-page-71b3b8.netlify.app/)  | Recipe page with a floating aside card that stacks up on small screens      |
 
 ## :handshake: Contact
 
